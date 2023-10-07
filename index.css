@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #293241;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+.welcome-img img{
+  width: 100%;
+}
+
+.welcome {
+  position: absolute;
+  left: 50%;
+  margin-bottom: 10%;
+  transform: translate(0, -5em);
+}
+
+.welcome h2 {
+  color: #fff;
+  font-size: 500%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.welcome h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #7676ff;
+}
+
+.welcome h2:nth-child(2) {
+  color: #7676ff;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.description1 {
+  color: #7676ff;
+  text-align: center;
+  transform: translate(0, -4.5em);
+  font-size: 300%;
+}
+
+.infoboximg {
+  position: absolute;
+  transform: translate(0, -116px);
+}
+.infoboximg img {
+  width: 1550px;
+  height: 700px;
+}
+
+
+.information-box {
+  background-color: #f4f4f4; 
+  border: 1px solid #ccc ;
+  padding: 20px; 
+  margin: 15px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transform: translate(0, -100px);
+}
+
+.information-box h2 {
+  font-size: 24px;
+  margin-top: 0;  
+}
+
+.information-box p {
+  font-size: 20px;
+  line-height: 1.5; 
+}
+
+
+.example-box {
+  width: 900px;  
+}
+
+.right {
+  position: absolute;
+  transform: translate(920px, -737px);
+  width:560px;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-200px);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.water-card {
+  width: 300px;
+  height: 400px;
+  background-color: #e0fbfc;
+  margin: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.water-effect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 28.28px 28.28px;
+  bottom: 0;
+}
+
+.cardinfo {
+  padding: 20px;
+  text-align: center;
+}
+
+.cardinfo h2 {
+  margin: 0;
+  color: #7676ff;
+}
+
+.cardinfo p{
+  margin: 0;
+  color: #333;
+}
+
+.href{
+  margin: 0;
+  color: #333;
+  transform:translate(0, 20px);
+}
+.cardimg {
+  position: absolute;
+  height: 400px;
+  transform: translate(710px, -420px);
+}
