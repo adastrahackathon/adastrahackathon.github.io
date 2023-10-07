@@ -1,117 +1,371 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-
-body {
-  background: #fff;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
+path {
+  stroke: white;
+  fill:paleturquoise !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MA {
+  stroke: white;
+  fill:#89c0ff !important;
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MN {
+  stroke: white;
+  fill:rgb(0, 119, 255) !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#ND {
+  stroke: white;
+  fill:rgb(0, 119, 255) !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#SD {
+  stroke: white;
+  fill:rgb(0, 119, 255) !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#IA {
+  stroke: white;
+  fill:rgb(0, 119, 255) !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#TX {
+  stroke: white;
+  fill:#0077ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MS {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#AL {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#GA {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#SC {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#NC {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#VA {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#WV {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MD {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#DE {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#LA {
+  stroke: white;
+  fill:#0077ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#NJ {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#CT {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#NY {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#RI {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MA {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#NH {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#VT {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#PA {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#OH {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#IN {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#IL {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#FL {
+  stroke: white;
+  fill:#0077ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#WA {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#OR {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MT {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#ID {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#TN {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#NM {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MO {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#AR {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#CA {
+  stroke: white;
+  fill:#89c0ff !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#NV {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#UT {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}#CO {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#WY {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#MI {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+#WI {
+  stroke: white;
+  fill:#b8af8f !important;
+
+  transition: fill .4s ease;
+  transform-origin: center center;
+}
+
+path:hover {
+  fill: orange !important;
+  cursor: pointer;
+  transform: scale(1.005, 1.005);
+}
 
 
-
-.welcome-img img{
+#us-map {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
 }
 
-.welcome {
-  position: absolute;
-  left: 50%;
-  margin-bottom: 10%;
-  transform: translate(0, -7em);
+#details-box {
+  box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.7);
+  opacity: 0%;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 24px;
+  position: fixed;
+  color: white;
+  font-family: "Poppins";
+  background-color: black;
+  width: fit-content;
+  transform: translateX(-50%);
+  transition: opacity .4s ease;
+  z-index: 1;
 }
 
-.welcome h2 {
-  color: #fff;
-  font-size: 500%;
-  position: absolute;
-  transform: translate(-50%, -50%);
+.highlyrisk {
+  border: #0077ff solid 4px;
+  background-color: #0077ff;
+  padding-left: 0.2em;
+  margin-right: 30px;
+  transform: translate(1300px, -500px);
+}
+.aboveaveragerisk {
+  border: #89c0ff solid 4px;
+  background-color: #89c0ff;
+  padding-left: 0.2em;
+  margin-right: 30px;
+  transform: translate(1300px, -500px);
+}
+.belowaveragerisk {
+  border: #b8af8f solid 4px;
+  background-color: #b8af8f;
+  padding-left: 0.2em;
+  margin-right: 30px;
+  transform: translate(1300px, -500px);
 }
 
-.welcome h2:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 2px #7676ff;
-}
-
-.welcome h2:nth-child(2) {
-  color: #7676ff;
-  animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
-  0%,
-  100% {
-    clip-path: polygon(
-      0% 45%,
-      16% 44%,
-      33% 50%,
-      54% 60%,
-      70% 61%,
-      84% 59%,
-      100% 52%,
-      100% 100%,
-      0% 100%
-    );
-  }
-
-  50% {
-    clip-path: polygon(
-      0% 60%,
-      15% 65%,
-      34% 66%,
-      51% 62%,
-      67% 50%,
-      84% 45%,
-      100% 46%,
-      100% 100%,
-      0% 100%
-    );
-  }
-}
-
-.infoboxes {
-    background-image: url(img/flood/flood2.avif);
-    transform: translate(0, -20px);
-}
-.information-box {
-    position: relative;
-    left: 32%;
-    background-color: #f4f4f4; 
-    border: 1px solid #ccc ;
-    padding: 20px; 
-    margin: 15px; 
-    border-radius: 5px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .information-box h2 {
-    font-size: 24px;
-    margin-top: 0;  
-  }
-  
-  .information-box p {
-    font-size: 20px;
-    line-height: 1.5; 
-  }
-  
-  
-  .example-box {
-    width: 600px;
-  }
-
-  .flood1info {
-    width: 610px;
-    text-align: left;
-    transform: translate(500px, 0);
-  }
-.flood1 {
-    display: flex;
-    justify-content: center;
-}
