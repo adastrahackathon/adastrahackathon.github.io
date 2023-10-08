@@ -7,7 +7,38 @@
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  color: #333;
+}
 
+.input-container {
+  margin: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
 path {
   stroke: white;
   fill:paleturquoise !important;
@@ -353,6 +384,7 @@ path:hover {
   padding-left: 0.2em;
   margin-right: 30px;
   transform: translate(1300px, -500px);
+  text-align: left;
 }
 .aboveaveragerisk {
   border: #89c0ff solid 4px;
@@ -360,6 +392,7 @@ path:hover {
   padding-left: 0.2em;
   margin-right: 30px;
   transform: translate(1300px, -500px);
+  text-align: left;
 }
 .belowaveragerisk {
   border: #b8af8f solid 4px;
@@ -367,5 +400,6 @@ path:hover {
   padding-left: 0.2em;
   margin-right: 30px;
   transform: translate(1300px, -500px);
+  text-align: left;
 }
 
