@@ -26,24 +26,24 @@
             <strong>3.Precipitation</strong> is when water droplets or ice crystals in clouds combine and fall to the ground as rain, snow, sleet, or hail. This water eventually spreads around the territory and returns to the evaporation process, completing the water cycle.
         </a>
         <a id="info4">
-            Why Do We Care About the Water Cycle?
+            Why Do We Care About the Water Cycle?<br>
 We care about the water cycle because water is necessary for all living things. NASA satellites orbiting Earth right now are helping us to understand what is happening with water on our planet.
 
 
-an illustration of a green plant sprout growing out of the soil
-Water in the Soil
+an illustration of a green plant sprout growing out of the soil<br><br>
+Water in the Soil<br><br>
 
 Humans need water to drink, and to water the plants that grow our food. NASA has a satellite called SMAP—short for Soil Moisture Active Passive—that measures how much water is in the top 2 inches (5 cm) of Earth’s soil. This can help us understand the relationship between water in the soil and severe weather conditions, such as droughts.
 
 
-an illustration of water vapor droplets floating in the atmosphere
-Water in the Atmosphere
+an illustration of water vapor droplets floating in the atmosphere<br><br>
+Water in the Atmosphere<br><br>
 
 NASA’s CloudSat mission studies water in our atmosphere in the form of clouds. CloudSat gathers information about clouds and how they play a role in Earth’s climate. Also, the international satellite called the Global Precipitation Measurement Mission (GPM) observes when, where and how much it rains and snows on Earth.
 
 
-an illustration of a dolphin jumping out of ocean waves
-Water in the Oceans
+an illustration of a dolphin jumping out of ocean waves<br><br>
+Water in the Oceans<br><br>
 
 As Earth’s climate becomes warmer, land ice at the North and South Poles starts melting. The water then flows into the ocean, causing sea level to rise. NASA’s Jason-3 mission—short for Joint Altimetry Satellite Oceanography Network-3—orbits Earth collecting information about sea level and ocean temperature. This helps track how the ocean responds to Earth’s changing climate.
 
@@ -52,3 +52,35 @@ NASA is also tracking how Earth’s water moves all around our planet. This is t
 NASA’s Aqua satellite also collects a large amount of information about Earth’s water cycle, including water in the oceans, clouds, sea ice, land ice and snow cover.
         </a>
     </div>
+    <h1 class="calcinfo">Evaporation Rate Calculator</h1>
+    <div class="calculatevap1">
+    <form onsubmit="return calculateEvaporation();">
+        <label for="surfaceArea">Surface Area (m²):</label>
+        <input type="number" id="surfaceArea" step="0.01" required><br>
+
+        <label for="evaporationConstant">Evaporation Rate Constant (%):</label>
+        <input type="number" id="evaporationConstant" step="0.01" required><br>
+
+        <label for="waterTemperature">Water Temperature (°C):</label>
+        <input type="number" id="waterTemperature" step="0.01" required><br>
+
+        <label for="ambientTemperature">Ambient Air Temperature (°C):</label>
+        <input type="number" id="ambientTemperature" step="0.01" required><br>
+
+        <button type="submit">Calculate Evaporation Rate</button>
+    </form></div>
+    <div id="result"></div>
+    <script>
+        function calculateEvaporation() {
+            var A = parseFloat(document.getElementById("surfaceArea").value);
+            var P = parseFloat(document.getElementById("evaporationConstant").value);
+            var T = parseFloat(document.getElementById("waterTemperature").value);
+            var Ta = parseFloat(document.getElementById("ambientTemperature").value);
+
+            var E = A * (P / 100) * (T - Ta) * A;
+
+            document.getElementById("result").innerHTML = "Evaporation Rate: " + E + " litres/day";
+
+            return false;
+        }
+    </script>

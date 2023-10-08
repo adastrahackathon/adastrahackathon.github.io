@@ -134,7 +134,7 @@ body {
   background-color: #fff;
   font-size: 20px;
   margin-bottom: 5px;
-  height: 300px;
+  height: 320px;
 }
 #info4 {
   position: relative;
@@ -150,4 +150,27 @@ body {
   background-color: #fff;
   font-size: 20px;
   margin-bottom: 5px;
+}
+.calculatevap1 {
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: #fff;
+}
+.calcinfo {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+#result {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  transform: translate(0, -30px);
 }

@@ -403,3 +403,8 @@ path:hover {
   text-align: left;
 }
 
+.mapsdirection {
+  display: flex;
+  color: #333;
+  justify-content: center;
+}
