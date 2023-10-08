@@ -5,12 +5,343 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Water</title>
     <link rel="stylesheet" type="text/css" href="solution.css">
+    <link rel="stylesheet" type="text/css" href="solutions.scss">
 </head>
 <body>
     <div class="welcome-img">
         <img src="img/e0fbfc.jpg" alt="welcome-img">
     </div>
     <div class="welcome">
-        <h2>Solutions.</h2>
-        <h2>Solutions.</h2>
+        <h2>Climate change.</h2>
+        <h2>Climate change.</h2>
     </div>
+    <div class="maintitle">
+        <a>Water – at the center of the climate crisis</a>
+    </div>
+
+    <div class="contenedor">
+        <div class="img"><img src="img/info1.jpg"></div>
+        <div class="contenido">
+          <p>Climate change and water are intricately connected, with climate change exerting complex effects on the Earth's water systems. These effects encompass a wide range of phenomena, such as shifting and erratic precipitation patterns, the reduction of ice sheets, the elevation of sea levels, and the increased occurrence of both floods and droughts. Many of the repercussions of climate change can ultimately be traced back to the profound influence it wields on the world's water resources.</p>
+        </div>
+      </div>
+
+      <div class="main">
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/meltingice.webp"></div>
+              <div class="card_content">
+                <h2 class="card_title"></h2>Melting Ice and Rising Sea Levels</h2>
+                <p class="card_text">The warming climate accelerates the melting of ice sheets and glaciers, contributing to rising sea levels. This phenomenon threatens coastal communities, causing saltwater intrusion and coastal erosion.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/precipitation_figure1_2022.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Melting Ice and Rising Sea Levels</h2>
+                <p class="card_text">The warming climate accelerates the melting of ice sheets and glaciers, contributing to rising sea levels. This phenomenon threatens coastal communities, causing saltwater intrusion and coastal erosion.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/flood/flood2.avif"></div>
+              <div class="card_content">
+                <h2 class="card_title">Increased Flooding Events</h2>
+                <p class="card_text">Climate change intensifies extreme weather events, including heavy rainfall and hurricanes, leading to more frequent and severe floods. This poses risks to infrastructure, ecosystems, and human lives.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/prolongeddrought.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Prolonged Droughts</h2>
+                <p class="card_text">Conversely, climate change can trigger prolonged droughts in certain areas, impacting agriculture, water supply, and ecosystems. This can lead to conflicts over limited water resources.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/SE_Ecosystem_Montage.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Impacts on Ecosystems</h2>
+                <p class="card_text">Changing water patterns affect aquatic ecosystems, including rivers, lakes, and oceans. Altered temperatures and acidity levels can harm aquatic life, disrupting food chains.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/Growth-of-Agricultural-Sector-in-EU-countries-and-Russia.jpeg"></div>
+              <div class="card_content">
+                <h2 class="card_title"> Implications for Agriculture</h2>
+                <p class="card_text">Shifts in precipitation patterns and prolonged droughts can challenge agricultural practices, leading to decreased crop yields and food security concerns.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="quiz-container">
+        <h1>Small quiz</h1>
+        <form>
+            <div class="question">
+                <p>1. How does climate change affect precipitation patterns?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz1" value="1">a) It has no impact on precipitation.</label>
+                    <label><input type="radio" name="quiz1" value="2">b) It leads to alterations in precipitation, resulting in both increased rainfall in some regions and prolonged droughts in others</label>
+                    <label><input type="radio" name="quiz1" value="3">c) It only causes increased rainfall everywhere.</label>
+                </div>
+                <button type="button" onclick="checkQuiz1()">Check</button>
+                <p id="result1" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>2. What does the warming climate accelerate concerning ice?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz2" value="1">a) The formation of new ice sheets.</label>
+                    <label><input type="radio" name="quiz2" value="2">b) The growth of glaciers.</label>
+                    <label><input type="radio" name="quiz2" value="3">c) The melting of ice sheets and glaciers, contributing to rising sea levels.</label>
+                </div>
+                <button type="button" onclick="checkQuiz2()">Check</button>
+                <p id="result2" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>3. How does climate change affect flooding events?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz3" value="1">a)  It intensifies extreme weather events, including heavy rainfall and hurricanes, leading to more frequent and severe floods.</label>
+                    <label><input type="radio" name="quiz3" value="2">b) It has no impact on flooding events.</label>
+                    <label><input type="radio" name="quiz3" value="3">c) It reduces the occurrence of floods.</label>
+                </div>
+                <button type="button" onclick="checkQuiz3()">Check</button>
+                <p id="result3" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>4. What can climate change trigger in certain areas?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz4" value="1">a) Increased rainfall.</label>
+                    <label><input type="radio" name="quiz4" value="2">b) Prolonged droughts, impacting agriculture, water supply, and ecosystems.</label>
+                    <label><input type="radio" name="quiz4" value="3">c) No changes in precipitation.</label>
+                </div>
+                <button type="button" onclick="checkQuiz4()">Check</button>
+                <p id="result4" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>5. What are the consequences of changing water patterns on aquatic ecosystems?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz5" value="1">a) No impact on aquatic life.</label>
+                    <label><input type="radio" name="quiz5" value="2">b) Positive effects on aquatic life.</label>
+                    <label><input type="radio" name="quiz5" value="3">c) Altered temperatures and acidity levels that can harm aquatic life and disrupt food chains.</label>
+                </div>
+                <button type="button" onclick="checkQuiz5()">Check</button>
+                <p id="result5" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>6. What are the potential outcomes of altered precipitation patterns due to climate change?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz6" value="1">a) Both increased rainfall in some regions and prolonged droughts in others, which can result in water scarcity or flooding.</label>
+                    <label><input type="radio" name="quiz6" value="2">b) Only prolonged droughts in all regions.</label>
+                    <label><input type="radio" name="quiz6" value="3">c) Only increased rainfall everywhere.</label>
+                </div>
+                <button type="button" onclick="checkQuiz6()">Check</button>
+                <p id="result6" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>7. How do shifts in precipitation patterns affect agriculture?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz7" value="1">a) They lead to increased crop yields.</label>
+                    <label><input type="radio" name="quiz7" value="2">b) They can challenge agricultural practices, leading to decreased crop yields and food security concerns</label>
+                    <label><input type="radio" name="quiz7" value="3">c) They have no impact on agriculture.</label>
+                </div>
+                <button type="button" onclick="checkQuiz7()">Check</button>
+                <p id="result7" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>8. What threat does the melting of ice sheets and glaciers pose?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz8" value="1">a) It has no impact on coastal communities.</label>
+                    <label><input type="radio" name="quiz8" value="2">b) It contributes to lower sea levels.</label>
+                    <label><input type="radio" name="quiz8" value="3">c) It contributes to rising sea levels, threatening coastal communities through saltwater intrusion and coastal erosion.</label>
+                </div>
+                <button type="button" onclick="checkQuiz8()">Check</button>
+                <p id="result8" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>9. How can prolonged droughts caused by climate change impact water resources?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz9" value="1">a) They can lead to conflicts over limited water resources.</label>
+                    <label><input type="radio" name="quiz9" value="2">b) They lead to an abundance of water.</label>
+                    <label><input type="radio" name="quiz9" value="3">c) They have no impact on water resources.</label>
+                </div>
+                <button type="button" onclick="checkQuiz9()">Check</button>
+                <p id="result9" class="result"></p>
+            </div>
+            
+        </form>
+    </div>
+    <script>
+        function checkQuiz1() {
+    var radios = document.getElementsByName("quiz1");
+    var result = document.getElementById("result1");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "2") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz2() {
+    var radios = document.getElementsByName("quiz2");
+    var result = document.getElementById("result2");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "3") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz3() {
+    var radios = document.getElementsByName("quiz3");
+    var result = document.getElementById("result3");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "1") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz4() {
+    var radios = document.getElementsByName("quiz4");
+    var result = document.getElementById("result4");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "2") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz5() {
+    var radios = document.getElementsByName("quiz5");
+    var result = document.getElementById("result5");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "3") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz6() {
+    var radios = document.getElementsByName("quiz6");
+    var result = document.getElementById("result6");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "1") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz7() {
+    var radios = document.getElementsByName("quiz7");
+    var result = document.getElementById("result7");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "2") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz8() {
+    var radios = document.getElementsByName("quiz8");
+    var result = document.getElementById("result8");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "3") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+
+function checkQuiz9() {
+    var radios = document.getElementsByName("quiz9");
+    var result = document.getElementById("result9");
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            if (radios[i].value == "1") {
+                result.innerHTML = "Правильно!";
+                result.style.color = "green";
+            } else {
+                result.innerHTML = "Неправильно.";
+                result.style.color = "red";
+            }
+            break;
+        }
+    }
+}
+    </Script>
