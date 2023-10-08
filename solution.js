@@ -4,10 +4,10 @@ function checkQuiz1() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "2") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -21,10 +21,10 @@ function checkQuiz2() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "3") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -38,10 +38,10 @@ function checkQuiz3() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "1") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -55,10 +55,10 @@ function checkQuiz4() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "2") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -72,10 +72,10 @@ function checkQuiz5() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "3") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -89,10 +89,10 @@ function checkQuiz6() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "1") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -106,10 +106,10 @@ function checkQuiz7() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "2") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -123,10 +123,10 @@ function checkQuiz8() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "3") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
@@ -140,10 +140,10 @@ function checkQuiz9() {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
             if (radios[i].value == "1") {
-                result.innerHTML = "Правильно!";
+                result.innerHTML = "Correct.";
                 result.style.color = "green";
             } else {
-                result.innerHTML = "Неправильно.";
+                result.innerHTML = "Wrong.";
                 result.style.color = "red";
             }
             break;
